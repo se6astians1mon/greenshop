@@ -1,0 +1,549 @@
+[{
+		"Title": "Questions liées au greenshop :",
+		"Information": "",
+		"id": 1,
+		"showTitle": "no",
+		"link": "/questionnaire_page1",
+		"nextPage": "/questionnaire_page2",
+		"form": "list",
+		"questions": [{
+				"Question": "D’après votre propre expérience, les produits proposés dans le magasin virtuel que vous venez de visiter sont ?",
+				"Answer": ["Plus chers qu’en magasin", "Au même prix qu’en magasin", "Moins chers qu’en magasin"],
+				"obligatory": "yes",
+				"id": 1
+			},
+
+			{
+				"Question": "D’après votre propre expérience, le magasin virtuel que vous venez de visiter est l’équivalent ?",
+				"Answer": ["D’un magasin complet", "D’une partie d’un magasin complet", "D’un magasin d’appoint"],
+				"obligatory": "yes",
+				"id": 2
+			},
+
+			{
+				"Question": "En repensant au panier de biens que vous venez de constituer, diriez-vous que son empreinte carbone est faible, moyenne ou élevée ? L’empreinte carbone d’un produit est la mesure de l'émission de gaz à effet de serre au cours de la production, du transport et de la distribution du produit en question.",
+				"Answer": ["Son empreinte carbone est faible", "Son empreinte carbone est moyenne", "Son empreinte carbone est élevée"],
+				"obligatory": "yes",
+				"id": 3
+			},
+			
+			{
+				"Question": "D’après-vous, quelles sont vos chances de recevoir le panier que vous venez de constituer ?",
+				"Answer": ["Il est très probable que je le reçoive", "Il est probable que je le reçoive", "Neutre", "Il est peu probable que je le reçoive", "Il est très peu probable que je le reçoive"],
+				"obligatory": "yes",
+				"id": 4
+			},
+
+			{
+				"Question": "Avez-vous prêté attention aux pastilles de couleur sous les produits proposés dans le magasin virtuel ?",
+				"Answer": ["Oui, et je m’en suis servi(e) pour prendre mes décisions", "Oui, mais je ne m’en suis pas servi(e) pour prendre mes décisions", "Non, je n’ai pas remarqué la présence de ces pastilles"],
+				"obligatory": "yes",
+				"id": 99
+			}
+		]
+	},
+	{
+		"Title": "Question Générales",
+		"Information": "",
+		"id": 2,
+		"showTitle": "no",
+		"link": "/questionnaire_page2",
+		"nextPage": "/questionnaire_page3",
+		"form": "list",
+		"questions": [{
+				"Question": "Quel est votre âge?",
+				"Answer": ["18-24 ans", "25-34 ans", "35-49 ans", "50-64 ans", "65 ans et plus"],
+				"obligatory": "yes",
+				"id": 5
+			},
+			{
+				"Question": "Êtes-vous?",
+				"Answer": ["Une femme", "Un homme"],
+				"obligatory": "yes",
+				"id": 6
+			},
+
+			{
+				"Question": "Dans quelle région vivez-vous?",
+				"Answer": ["Auvergne-Rhône-Alpes", "Bourgogne-Franche-Comté", "Bretagne", "Centre-Val de Loire", "Corse", "Grand Est", "Hauts-de-France", "Île-de-France", "Normandie", "Nouvelle-Aquitaine", "Occitanie", "Pays de la Loire", "Provence-Alpes-Côte d’Azur"],
+				"obligatory": "yes",
+				"id": 7
+			},
+
+
+			{
+				"Question": "A quel groupe appartenez-vous ?",
+				"Answer": ["Agriculteurs", "Artisans, commerçants et chefs d’entreprises", "Cadres et professions intellectuelles supérieures (professions libérales, professeurs, ingénieurs, etc.)", "Professions intermédiaires (professeurs des écoles, professions intermédiaires de la santé et du travail sociale, etc.)", "Employés (employés civiles et agents de la fonction publique, policiers et militaires, employés de commerce, etc.)", "Ouvriers (ouvriers de type industriel ou artisanal, chauffeurs, manutention, etc.)", "Retraités", "Autres personnes sans activité professionnelle (chômeurs n’ayant jamais travaillé, élèves ou étudiants, etc.)"],
+				"obligatory": "yes",
+				"id": 8
+			}
+		]
+	},
+	{
+		"Title": "",
+		"Information": "",
+		"id": 3,
+		"showTitle": "no",
+		"link": "/questionnaire_page3",
+		"nextPage": "/questionnaire_page4",
+		"form": "list",
+		"questions": [{
+				"Question": "Quel est votre niveau d’études ?",
+				"Answer": ["Aucun diplôme ou CEP (certificat d’études primaires)", "Brevet des collèges", "CAP, BEP ou autre diplôme de ce niveau", "Baccalauréat, ou brevet professionnel, ou autre diplôme de ce niveau", "Enseignement supérieur de Bac+2 à Bac+4 (BTS, DEUG, licence, master 1, etc.)", "Enseignement supérieur Bac+5 et plus (ingénieur, master 2, doctorat, etc.)"],
+				"obligatory": "yes",
+				"id": 9
+			},
+
+			{
+				"Question": "Combien de personnes vivent dans votre foyer, vous compris ?",
+				"Answer": ["1 personne", "2 personnes", "3 personnes", "4 personnes", "5 personnes", "6 personnes", "7 personnes", "8 personnes", "9 personnes", "10 personnes ou plus"],
+				"obligatory": "yes",
+				"id": 10
+			},
+
+			{
+				"Question": "Combien d’enfants à charge avez-vous ?",
+				"Answer": ["Aucun", "1", "2", "3", "4 ou plus"],
+				"obligatory": "yes",
+				"id": 11
+			},
+
+			{
+				"Question": "Quel est le revenu disponible net mensuel de votre foyer (net signifie après avoir payé vos impôts) ?",
+				"Answer": ["Moins de 1500€", "1500-1999€", "2000-2499€", "2500-3499€", "3500-4999€", "5000-6999€", "Plus de 7000€", "Ne sais pas/refuse de répondre"],
+				"obligatory": "yes",
+				"id": 12
+			}
+		]
+	},
+	{
+		"Title": "Questions liées aux habitudes alimentaires :",
+		"Information": "",
+		"id": 4,
+		"showTitle": "no",
+		"link": "/questionnaire_page4",
+		"nextPage": "/questionnaire_page5",
+		"form": "list",
+		"questions": [{
+				"Question": "Suivez-vous un régime alimentaire spécifique pour des raisons médicales, religieuses ou éthiques ?",
+				"Answer": ["Halal", "Kascher", "Intolérance au lactose", "Intolérance au gluten", "Végan ou végétalien", "Végétarien", "Flexitarien (essentiellement végétarien)", "Sans régime alimentaire spécifique"],
+				"obligatory": "yes",
+				"id": 13
+			},
+
+			{
+				"Question": "A quelle fréquence mangez-vous, personnellement, de la viande (viande de boucherie, volaille ou gibier) hors charcuterie ?",
+				"Answer": ["6 fois ou plus par semaine","5 fois par semaine","4 fois par semaine","3 fois par semaine","2 fois ou moins par semaine","Je n’en mange pas du fait de mon régime alimentaire","Je n’en mange pas car je n’aime pas la viande"],
+				"obligatory": "yes",
+				"id": 14
+			},
+
+			{
+				"Question": "Dans quel type de magasin effectuez-vous le plus souvent vos achats alimentaires ?",
+				"Answer": ["Hypermarchés (Auchan, Carrefour, Leclerc, etc.)", "Supermarchés (Carrefour Market, Casino, Super U, etc.)", "Superettes (8 à huit, Monoprix, Petit Casino, etc.)", "Hards discounts (Aldi, Lidl, Leader price, etc.)", "Petits commerces (Epiceries, boucheries, boulangeries, etc.)", "Magasins Bio", "AMAP (Association pour le Maintien d'une Agriculture Paysanne)", "Directement chez le(s) producteur(s)", "Sur les marchés"],
+				"obligatory": "yes",
+				"id": 15
+			},
+
+			{
+				"Question": "Avez-vous déjà fait vos courses dans un magasin en ligne comparable à celui-ci (drive, livraison, etc.) ?",
+				"Answer": ["Oui", "Non"],
+				"obligatory": "yes",
+				"id": 16
+			},
+
+			{
+				"Question": "Combien dépensez-vous, en moyenne, pour les courses alimentaires de votre foyer chaque semaine ?",
+				"Answer": ["Moins de 30€", "Entre 30€ et moins de 50€", "Entre 50€ et moins de 70€", "Entre 70€ et moins de 90€", "Entre 90€ et moins de 110€", "Entre 110€ et moins de 130€", "Plus de 130€"],
+				"obligatory": "yes",
+				"id": 17
+			},
+
+
+			{
+				"Question": "En considérant vos 14 repas sur une semaine (ceux du midi et du soir), combien d’entre eux, en moyenne, préparez-vous intégralement ?",
+				"Answer": ["Je les prépare tous", "J’en prépare la plupart (le midi ou le soir essentiellement par exemple)", "J’en prépare quelques-uns (le week-end par exemple)", "Je n’en prépare aucun"],
+				"obligatory": "yes",
+				"id": 18
+			}
+
+		]
+	},
+	{
+		"Title": "Connaissance liées à l’empreinte carbone de l’alimentation :",
+		"Information": "Pour chaque paire de produits alimentaires qui suivent, pouvez-vous indiquer lequel des produits a l’empreinte carbone la plus élevée ?",
+		"id": 5,
+		"showTitle": "no",
+		"link": "/questionnaire_page5",
+		"nextPage": "/questionnaire_page6",
+		"form": "list",
+		"questions": [{
+				"Question": "Première paire:",
+				"Answer": ["100g de steak haché (15% de matières grasses)", "100g de viande de poulet"],
+				"obligatory": "yes",
+				"id": 19
+			},
+
+			{
+				"Question": "Deuxième paire:",
+				"Answer": ["100g de carottes", "100g de jambon blanc"],
+				"obligatory": "yes",
+				"id": 20
+			},
+
+			{
+				"Question": "Troisième paire:",
+				"Answer": ["20cl de thé glacé", "20cl de jus d’orange"],
+				"obligatory": "yes",
+				"id": 21
+			},
+
+			{
+				"Question": "Quatrième paire:",
+				"Answer": ["100g de chocolat noir", "100g de madeleines"],
+				"obligatory": "yes",
+				"id": 22
+			},
+
+
+			{
+				"Question": "D’après vous, combien de kilogrammes de CO2 chaque français génère chaque année du fait de son alimentation, en moyenne ?",
+				"Answer": ["500 kg par an", "1000 kg par an", "1800 kg par an", "2400 kg par an", "3500 kg par an"],
+				"obligatory": "yes",
+				"id": 23
+			}
+		]
+	},
+	{
+		"Title": "Questions sur la perception d’une taxe carbone alimentaire :",
+		"Information": "Un moyen pour réduire l’empreinte carbone liée aux achats alimentaires est de mettre en place une taxe dont le montant est proportionnel à l’empreinte carbone des biens alimentaires achetés. En considérant un prix du carbone de 80€ par tonne de CO2, cela résulterait en une hausse moyenne du prix actuellement observé en magasin des biens alimentaires de la plateforme en ligne que vous venez de visiter de 6%.",
+		"id": 6,
+		"showTitle": "no",
+		"link": "/questionnaire_page6",
+		"nextPage": "/questionnaire_page7",
+		"form": "list",
+		"questions": [{
+				"Question": "Approuveriez-vous sa mise en place ?",
+				"Answer": ["J’approuverais totalement", "J’approuverais", "Neutre", "Je désapprouverais", "Je désapprouverais totalement"],
+				"obligatory": "yes",
+				"id": 24
+			},
+
+			{
+				"Question": "Pensez-vous que cette taxe serait efficace pour réduire l’empreinte carbone des français liés à leurs achats alimentaires ?",
+				"Answer": ["Cette taxe serait tout à fait efficace", "Cette taxe serait plutôt efficace", "Neutre", "Cette taxe ne serait pas très efficace", "Cette taxe ne serait pas du tout efficace"],
+				"obligatory": "yes",
+				"id": 25
+			},
+
+			{
+				"Question": "Pensez-vous que cette taxe serait équitable ?",
+				"Answer": ["Cette taxe serait tout à fait équitable", "Cette taxe serait plutôt équitable", "Neutre", "Cette taxe ne serait pas très équitable", "Cette taxe ne serait pas du tout équitable"],
+				"obligatory": "yes",
+				"id": 26
+			},
+
+			{
+				"Question": "Pensez-vous que la mise en place d’une telle taxe sur les produits alimentaires devrait s’accompagner d’une subvention sur les produits alimentaires dont l’empreinte carbone est la plus faible ?",
+				"Answer": ["Cela serait tout à fait pertinent", "Cela serait plutôt pertinent ", "Neutre", "Cela ne serait pas très pertinent", "Cela ne serait pas du tout pertinent"],
+				"obligatory": "yes",
+				"id": 27
+			},
+
+			{
+				"Question": "Merci de sélectionner « Pas beaucoup » (pour tester si vous êtes attentif.ve).",
+				"Answer": ["Tout le temps", "Un peu", "Neutre", "Pas beaucoup", "Pas du tout"],
+				"obligatory": "yes",
+				"id": 28
+			}
+		]
+	},
+	{
+		"Title": "",
+		"Information": "En considérant maintenant un prix du carbone de 250€ par tonne de CO2, cela résulterait en une hausse moyenne du prix actuellement observé en magasin des biens alimentaires de la plateforme en ligne que vous venez de visiter de 18%. Si une telle taxe était mise en place en France",
+		"id": 7,
+		"showTitle": "no",
+		"link": "/questionnaire_page7",
+		"nextPage": "/questionnaire_page8",
+		"form": "list",
+		"questions": [{
+				"Question": "Approuveriez-vous sa mise en place ?",
+				"Answer": ["J’approuverais totalement", "J’approuverais", "Neutre", "Je désapprouverais", "Je désapprouverais totalement"],
+				"obligatory": "yes",
+				"id": 29
+			},
+
+			{
+				"Question": "Pensez-vous que cette taxe serait efficace pour réduire l’empreinte carbone des français liés à leurs achats alimentaires ?",
+				"Answer": ["Cette taxe serait tout à fait efficace", "Cette taxe serait plutôt efficace", "Neutre", "Cette taxe ne serait pas très efficace", "Cette taxe ne serait pas du tout efficace"],
+				"obligatory": "yes",
+				"id": 30
+			},
+
+			{
+				"Question": "Pensez-vous que cette taxe serait équitable ?",
+				"Answer": ["Cette taxe serait tout à fait équitable", "Cette taxe serait plutôt équitable", "Neutre", "Cette taxe ne serait pas très équitable", "Cette taxe ne serait pas du tout équitable"],
+				"obligatory": "yes",
+				"id": 31
+			},
+
+			{
+				"Question": "Pensez-vous que la mise en place d’une telle taxe sur les produits alimentaires devrait s’accompagner d’une subvention sur les produits alimentaires dont l’empreinte carbone est la plus faible ?",
+				"Answer": ["Cela serait tout à fait pertinent", "Cela serait plutôt pertinent ", "Neutre", "Cela ne serait pas très pertinent", "Cela ne serait pas du tout pertinent"],
+				"obligatory": "yes",
+				"id": 32
+			}
+			
+		]
+	},
+	{
+		"Title": "",
+		"Information": "Considérons maintenant la mise en place d’une telle taxe, quel que soit son montant.",
+		"id": 8,
+		"showTitle": "no",
+		"link": "/questionnaire_page8",
+		"nextPage": "/questionnaire_page9",
+		"form": "list",
+		"questions": [{
+               			"Question": "Pensez-vous que la mise en place d’une telle taxe sur les produits alimentaires résulterait en une perte de pouvoir d’achat plus élevée pour votre ménage que pour le ménage français moyen ?",
+                		"Answer": ["Oui, beaucoup plus","Oui, un peu","Autant que pour le ménage français moyen","Non, un peu moins","Non, beaucoup moins","Je ne sais pas"],
+                		"obligatory": "yes",
+                		"id": 33
+			},
+
+			{
+				"Question": "D’après vous, à quoi devraient servir prioritairement les revenus d’une telle taxe carbone sur l’alimentation ?",
+				"Answer": ["A un paiement aux 50% des Français les plus pauvres (ceux dont le revenu mensuel est inférieur à 1670€)", "A un paiement à tous les Français", "A une baisse des contributions sociales", "A une baisse de la TVA", "A une baisse du déficit public", "Au développement d’industries alimentaires à faible contenu carbone", "Aux énergies renouvelables (éolien, solaire, etc.)", "Au développement d’un transport plus propre", "A soutenir les agriculteurs"],
+				"obligatory": "yes",
+				"id": 34
+			}
+
+		]
+	},
+	{
+		"Title": "",
+		"Information": "",
+		"id": 9,
+		"showTitle": "no",
+		"link": "/questionnaire_page9",
+		"nextPage": "/questionnaire_page10",
+		"form": "list",
+		"questions": [{
+				"Question": "Si les prix des viandes (hors volailles) augmentaient, en moyenne, de 1.74€ par kilogramme, de combien votre ménage réduirait-il sa consommation de viandes ?",
+				"Answer": ["0% - Je n'en consomme déjà presque pas", "0% - Je suis contraint par mon régime alimentaire", "De 0% à 10%", "De 10% à 20%", "De 20% à 30%", "Plus de 30% - Je changerais largement mes habitudes alimentaires"],
+				"obligatory": "yes",
+				"id": 35
+			},
+
+			{
+				"Question": "Si les prix des viandes (hors volailles) augmentaient, en moyenne, de 5.45€ par kilogramme, de combien votre ménage réduirait-il sa consommation de viandes ?",
+				"Answer": ["0% - Je n'en consomme déjà presque pas", "0% - Je suis contraint par mon régime alimentaire", "De 0% à 10%", "De 10% à 20%", "De 20% à 30%", "Plus de 30% - Je changerais largement mes habitudes alimentaires"],
+				"obligatory": "yes",
+				"id": 36
+			},
+
+			{
+				"Question": "Si les prix des légumes augmentaient, en moyenne, de 0.10€ par kilogramme, de combien votre ménage réduirait-il sa consommation de légumes ?",
+				"Answer": ["0% - Je n'en consomme déjà presque pas", "0% - Je suis contraint par mon régime alimentaire", "De 0% à 10%", "De 10% à 20%", "De 20% à 30%", "Plus de 30% - Je changerais largement mes habitudes alimentaires"],
+				"obligatory": "yes",
+				"id": 37
+			},
+
+			{
+				"Question": "Si les prix des légumes augmentaient, en moyenne, de 0.32€ par kilogramme, de combien votre ménage réduirait-il sa consommation de légumes ?",
+				"Answer": ["0% - Je n'en consomme déjà presque pas", "0% - Je suis contraint par mon régime alimentaire", "De 0% à 10%", "De 10% à 20%", "De 20% à 30%", "Plus de 30% - Je changerais largement mes habitudes alimentaires"],
+				"obligatory": "yes",
+				"id": 38
+			},
+
+			{
+				"Question": "Si les prix des poissons augmentaient, en moyenne, de 0.49€ par kilogramme, de combien votre ménage réduirait-il sa consommation de poissons ?",
+				"Answer": ["0% - Je n'en consomme déjà presque pas", "0% - Je suis contraint par mon régime alimentaire", "De 0% à 10%", "De 10% à 20%", "De 20% à 30%", "Plus de 30% - Je changerais largement mes habitudes alimentaires"],
+				"obligatory": "yes",
+				"id": 39
+			},
+
+			{
+				"Question": "Si les prix des poissons augmentaient, en moyenne, de 1.55€ par kilogramme, de combien votre ménage réduirait-il sa consommation de poissons ?",
+				"Answer": ["0% - Je n'en consomme déjà presque pas", "0% - Je suis contraint par mon régime alimentaire", "De 0% à 10%", "De 10% à 20%", "De 20% à 30%", "Plus de 30% - Je changerais largement mes habitudes alimentaires"],
+				"obligatory": "yes",
+				"id": 40
+			},
+			{
+				"Question": "Le gouvernement Français va attribuer un chèque énergie exceptionnel, en décembre, d’un montant de 100€ pour toute personne gagnant moins de 2000€ net par mois. L’objectif de ce chèque énergie est d’aider les foyers les plus modestes face à la hausse du prix des énergies. Est-ce que vous approuveriez la mise en place d’un chèque similaire pour l’alimentation ?",
+				"Answer": ["Oui", "Non","Je ne sais pas"],
+				"obligatory": "yes",
+				"id": 41
+			}
+		]
+	},
+	{
+		"Title": "Questions politiques :",
+		"Information": "",
+		"id": 10,
+		"showTitle": "no",
+		"link": "/questionnaire_page10",
+		"nextPage": "/questionnaire_page11",
+		"form": "list",
+		"questions": [{
+				"Question": "À quel point êtes-vous intéressé(e) par la politique ?",
+				"Answer": ["Presque pas", "Un peu", "Beaucoup"],
+				"obligatory": "yes",
+				"id": 42
+			},
+
+
+			{
+				"Question": "En général, faites-vous confiance au gouvernement pour prendre de bonnes décisions ?",
+				"Answer": ["Toujours", "La plupart du temps", "La moitié du temps", "Parfois", "Jamais", "Je ne sais pas/Je ne me prononce pas"],
+				"obligatory": "yes",
+				"id": 43
+			},
+
+			{
+				"Question": "Comment vous définiriez-vous ?",
+				"Answer": ["D’extrême gauche", "De gauche", "Du centre", "De droite", "D’extrême droite", "Conservateur", "Libéral", "Humaniste", "Patriote", "Apolitique", "Ecologiste", "Je ne sais pas/Je ne me prononce pas"],
+				"obligatory": "yes",
+				"id": 44
+			}
+		]
+	},
+	{
+		"Title": "",
+		"Information": "Enfin, pouvez-vous indiquer votre niveau d’adhésion pour chacune des affirmations suivantes, entre « Tout à fait d’accord » et « Pas du tout d’accord ».",
+		"id": 11,
+		"showTitle": "no",
+		"link": "/questionnaire_page11",
+		"nextPage": "/questionnaire_page12",
+		"form": "list",
+		"questions": [{
+				"Question": "Nous nous approchons du nombre limite de personnes que la terre peut nourrir",
+				"Answer": ["Tout à fait d’accord", "Plutôt d’accord", "Neutre", "Pas d’accord", "Pas du tout d’accord"],
+				"obligatory": "yes",
+				"id": 45
+			},
+
+			{
+				"Question": "Les êtres humains ont le droit de modifier l’environnement naturel selon leurs besoins",
+				"Answer": ["Tout à fait d’accord", "Plutôt d’accord", "Neutre", "Pas d’accord", "Pas du tout d’accord"],
+				"obligatory": "yes",
+				"id": 46
+			},
+
+			{
+				"Question": "Quand les êtres humains essaient de changer le cours de la nature cela produit souvent des conséquences désastreuses",
+				"Answer": ["Tout à fait d’accord", "Plutôt d’accord", "Neutre", "Pas d’accord", "Pas du tout d’accord"],
+				"obligatory": "yes",
+				"id": 47
+			},
+
+
+			{
+				"Question": "L’ingéniosité humaine fera en sorte que nous ne rendrons PAS la terre invivable",
+				"Answer": ["Tout à fait d’accord", "Plutôt d’accord", "Neutre", "Pas d’accord", "Pas du tout d’accord"],
+				"obligatory": "yes",
+				"id": 48
+			},
+
+			{
+				"Question": "Les êtres humains sont en train de sérieusement malmener l’environnement",
+				"Answer": ["Tout à fait d’accord", "Plutôt d’accord", "Neutre", "Pas d’accord", "Pas du tout d’accord"],
+				"obligatory": "yes",
+				"id": 49
+			}
+		]
+	},
+	{
+		"Title": "",
+		"Information": "",
+		"id": 12,
+		"showTitle": "no",
+		"link": "/questionnaire_page12",
+		"nextPage": "/questionnaire_page13",
+		"form": "list",	
+		"questions": [{
+				"Question": "La terre posséderait une infinité de ressources naturelles si seulement nous savions comment en tirer mieux parti",
+				"Answer": ["Tout à fait d’accord", "Plutôt d’accord", "Neutre", "Pas d’accord", "Pas du tout d’accord"],
+				"obligatory": "yes",
+				"id": 50
+			},
+
+
+			{
+				"Question": "Les plantes et les animaux ont autant le droit que les êtres humains d’exister",
+				"Answer": ["Tout à fait d’accord", "Plutôt d’accord", "Neutre", "Pas d’accord", "Pas du tout d’accord"],
+				"obligatory": "yes",
+				"id": 51
+			},
+
+			{
+				"Question": "L’équilibre de la nature est assez fort pour faire face aux effets des nations industrielles modernes",
+				"Answer": ["Tout à fait d’accord", "Plutôt d’accord", "Neutre", "Pas d’accord", "Pas du tout d’accord"],
+				"obligatory": "yes",
+				"id": 52
+			},
+
+			{
+				"Question": "Malgré des aptitudes particulières, les humains sont toujours soumis aux lois de la nature",
+				"Answer": ["Tout à fait d’accord", "Plutôt d’accord", "Neutre", "Pas d’accord", "Pas du tout d’accord"],
+				"obligatory": "yes",
+				"id": 53
+			},
+			{
+				"Question": "La prétendue « crise écologique » qui guette le genre humain a été largement exagérée",
+				"Answer": ["Tout à fait d’accord", "Plutôt d’accord", "Neutre", "Pas d’accord", "Pas du tout d’accord"],
+				"obligatory": "yes",
+				"id": 54
+			}
+		]
+	},
+	{
+		"Title": "",
+		"Information": "",
+		"id": 13,
+		"showTitle": "no",
+		"link": "/questionnaire_page13",
+		"nextPage": "",
+		"nextPage": "/end",
+		"form": "list",
+		"questions": [{
+				"Question": "La terre est comme un vaisseau spatial avec un espace et des ressources très limités",
+				"Answer": ["Tout à fait d’accord", "Plutôt d’accord", "Neutre", "Pas d’accord", "Pas du tout d’accord"],
+				"obligatory": "yes",
+				"id": 55
+			},
+
+			{
+				"Question": "Les humains ont été créés pour gouverner le reste de la nature",
+				"Answer": ["Tout à fait d’accord", "Plutôt d’accord", "Neutre", "Pas d’accord", "Pas du tout d’accord"],
+				"obligatory": "yes",
+				"id": 56
+			},
+
+
+			{
+				"Question": "L’équilibre de la nature est très fragile et facilement perturbé",
+				"Answer": ["Tout à fait d’accord", "Plutôt d’accord", "Neutre", "Pas d’accord", "Pas du tout d’accord"],
+				"obligatory": "yes",
+				"id": 57
+			},
+
+			{
+				"Question": "Les humains vont un jour apprendre suffisamment sur le fonctionnement de la nature pour pouvoir le contrôler",
+				"Answer": ["Tout à fait d’accord", "Plutôt d’accord", "Neutre", "Pas d’accord", "Pas du tout d’accord"],
+				"obligatory": "yes",
+				"id": 58
+			},
+
+
+			{
+				"Question": "Si les choses continuent au rythme actuel nous allons bientôt vivre une catastrophe écologique majeure",
+				"Answer": ["Tout à fait d’accord", "Plutôt d’accord", "Neutre", "Pas d’accord", "Pas du tout d’accord"],
+				"obligatory": "yes",
+				"id": 59
+			}
+		]
+	}
+]
+
+

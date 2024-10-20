@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "build",
+    "target": "greensh3p",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

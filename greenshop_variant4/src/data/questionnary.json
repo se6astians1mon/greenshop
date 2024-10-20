@@ -1,0 +1,760 @@
+[
+    {
+        "Information": "1. Sur une échelle allant de 1 à 7, indiquez votre degré d'accord avec chacune des affirmations suivantes",
+        "Title": "Section 1 : Attitudes",
+        "id": 1,
+        "showTitle": "no",
+        "link": "/questionnaire_section1",
+        "nextPage": "/questionnaire_section2",
+        "questions": [
+            {
+                "Question": "Un couple marié devrait pouvoir avoir autant d’enfants qu’il le souhaite, du moment qu’il peut subvenir correctement à leurs besoins.",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "obligatory": "yes",
+                "id": 1,
+                "extremeLabels": ["Pas du tout d'accord", "Tout à fait d'accord"]
+            },
+            {
+                "Question": "Protéger l’environnement est plus important que protéger l’emploi des gens.",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "obligatory": "yes",
+                "id": 2,
+                "extremeLabels": ["Pas du tout d'accord", "Tout à fait d'accord"]
+            },
+            {
+                "Question": "Nous devons garder les lacs et les rivières propres pour protéger l’environnement, \r\net non pour permettre aux gens de profiter des sports nautiques.",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Pas du tout d'accord", "Tout à fait d'accord"],
+                "obligatory": "yes",
+                "id": 3
+            },
+            {
+                "Question": "La science moderne résoudra nos problèmes environnementaux.",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Pas du tout d'accord", "Tout à fait d'accord"],
+                "obligatory": "yes",
+                "id": 4
+            },
+            {
+                "Question": "Les êtres humains exploitent trop l’environnement.",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Pas du tout d'accord", "Tout à fait d'accord"],
+                "obligatory": "yes",
+                "id": 5
+            },
+            {
+                "Question": "Je préfère un jardin sauvage et naturel à un jardin soigné et bien ordonné.",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Pas du tout d'accord", "Tout à fait d'accord"],
+                "obligatory": "yes",
+                "id": 6
+            },
+            {
+                "Question": "L’être humain a été créé ou a évolué pour dominer le reste de la nature.",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Pas du tout d'accord", "Tout à fait d'accord"],
+                "obligatory": "yes",
+                "id": 7
+            },
+            {
+                "Question": "Je suis opposé à l’idée du contrôle et de la régulation de l’utilisation des matières premières par les gouvernements dans le but de les faire durer plus longtemps.",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Pas du tout d'accord", "Tout à fait d'accord"],
+                "obligatory": "yes",
+                "id": 8
+            },
+            {
+                "Question": "Ça me rend triste de voir les forêts détruites pour l’agriculture.",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Pas du tout d'accord", "Tout à fait d'accord"],
+                "obligatory": "yes",
+                "id": 9
+            },
+            {
+                "Question": "Je trouve que passer du temps dans la nature est ennuyeux.",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Pas du tout d'accord", "Tout à fait d'accord"],
+                "obligatory": "yes",
+                "id": 10
+            },
+            {
+                "Question": "J’aimerais rejoindre et participer activement à un groupe écologiste.",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Pas du tout d'accord", "Tout à fait d'accord"],
+                "obligatory": "yes",
+                "id": 11
+            },
+            {
+                "Question": "Je ne suis pas le genre de personne qui fait des efforts pour économiser les ressources naturelles.",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Pas du tout d'accord", "Tout à fait d'accord"],
+                "obligatory": "yes",
+                "id": 12
+            }
+        ]
+    },
+    {
+        "Title": "Section 2 : alimentation criteria",
+        "Information": "Dans quelle mesure les critères suivants ont-ils une importance pour vous lorsque vous achetez des produits alimentaires ?",
+        "id": 2,
+        "showTitle": "no",
+        "link": "/questionnaire_section2",
+        "nextPage": "/questionnaire_section3",
+        "questions": [
+            {
+                "Question": "Qualité",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Pas du tout important", "Extrêmement important"],
+                "obligatory": "yes",
+                "id": 1
+            },
+            {
+                "Question": "Prix",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Pas du tout important", "Extrêmement important"],
+                "obligatory": "yes",
+                "id": 2
+            },
+            {
+                "Question": "Rapport qualité/prix",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Pas du tout important", "Extrêmement important"],
+                "obligatory": "yes",
+                "id": 3
+            },
+            {
+                "Question": "Nombre de calories",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Pas du tout important", "Extrêmement important"],
+                "obligatory": "yes",
+                "id": 4
+            },
+            {
+                "Question": "Valeurs nutritionnelles",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Pas du tout important", "Extrêmement important"],
+                "obligatory": "yes",
+                "id": 5
+            },
+            {
+                "Question": "Mode de production",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Pas du tout important", "Extrêmement important"],
+                "obligatory": "yes",
+                "id": 6
+            },
+            {
+                "Question": "Impact environnemental",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Pas du tout important", "Extrêmement important"],
+                "obligatory": "yes",
+                "id": 7
+            },
+            {
+                "Question": "Lieu de production",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Pas du tout important", "Extrêmement important"],
+                "obligatory": "yes",
+                "id": 8
+            }
+        ]
+    },
+    {
+        "Title": "Section 3 : shopping habits",
+        "Information": "A quelle fréquence faites-vous vos courses dans les types de magasin suivants ?",
+        "id": 3,
+        "showTitle": "no",
+        "link": "/questionnaire_section3",
+        "nextPage": "/questionnaire_section4",
+        "questions": [
+            {
+                "Question": "Hypermarchés (Auchan, Carrefour, Leclerc…)",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Jamais", "Très fréquemment"],
+                "obligatory": "yes",
+                "id": 1
+            },
+            {
+                "Question": "Supermarchés (Carrefour Market, Casino, Super U…)",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Jamais", "Très fréquemment"],
+                "obligatory": "yes",
+                "id": 2
+            },
+            {
+                "Question": "Superettes (8 à huit, Monoprix, Petit casino)",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Jamais", "Très fréquemment"],
+                "obligatory": "yes",
+                "id": 3
+            },
+            {
+                "Question": "Hard discounts (Aldi, Lidl, Leader price…)",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Jamais", "Très fréquemment"],
+                "obligatory": "yes",
+                "id": 4
+            },
+            {
+                "Question": "Petits commerces (Epiceries,boucheries,boulangeries…)",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Jamais", "Très fréquemment"],
+                "obligatory": "yes",
+                "id": 5
+            },
+            {
+                "Question": "Magasins bio",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Jamais", "Très fréquemment"],
+                "obligatory": "yes",
+                "id": 6
+            },
+            {
+                "Question": "AMAP (Association pour le Maintien d'une Agriculture Paysanne)",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Jamais", "Très fréquemment"],
+                "obligatory": "yes",
+                "id": 7
+            },
+            {
+                "Question": "Directement chez le(s) producteur(s)",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Jamais", "Très fréquemment"],
+                "obligatory": "yes",
+                "id": 8
+            },
+            {
+                "Question": "Sur les marchés",
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Jamais", "Très fréquemment"],
+                "obligatory": "yes",
+                "id": 9
+            }
+        ]
+    },
+    {
+        "Title": "Section 4 : online shopping habits",
+        "Information": "A quelle fréquence faites-vous vos courses en ligne dans des magasins comparables à ce magasin expérimental?",
+        "id": 4,
+        "showTitle": "no",
+        "link": "/questionnaire_section4",
+        "nextPage": "/questionnaire_section5",
+        "questions": [
+            {
+                "Answer": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "extremeLabels": ["Jamais", "Très fréquemment"],
+                "obligatory": "yes",
+                "id": 1
+            }
+        ]
+    },
+    {
+        "Title": "Section 5 : type of alimentation",
+        "Information": "Suivez-vous un régime alimentaire spécifique pour des raisons médicales, religieuses ou éthiques ? Veuillez indiquer pour chacune des propositions si vous suivez ce régime ou pas.",
+        "id": 5,
+        "showTitle": "no",
+        "link": "/questionnaire_section5",
+        "nextPage": "/questionnaire_section6",
+        "questions": [
+            {
+                "Question": "Halal",
+                "Answer": [
+                    "Non",
+                    "Oui"
+                ],
+                "obligatory": "yes",
+                "id": 1
+            },
+            {
+                "Question": "Kascher",
+                "Answer": [
+                    "Non",
+                    "Oui"
+                ],
+                "obligatory": "yes",
+                "id": 2
+            },
+            {
+                "Question": "Intolérance au lactose",
+                "Answer": [
+                    "Non",
+                    "Oui"
+                ],
+                "obligatory": "yes",
+                "id": 3
+            },
+            {
+                "Question": "Intolérance au gluten",
+                "Answer": [
+                    "Non",
+                    "Oui"
+                ],
+                "obligatory": "yes",
+                "id": 4
+            },
+            {
+                "Question": "Vegan ou végétalien",
+                "Answer": [
+                    "Non",
+                    "Oui"
+                ],
+                "obligatory": "yes",
+                "id": 5
+            },
+            {
+                "Question": "Végétarien",
+                "Answer": [
+                    "Non",
+                    "Oui"
+                ],
+                "obligatory": "yes",
+                "id": 6
+            },
+            {
+                "Question": "Flexitarien (essentiellement végétarien)",
+                "Answer": [
+                    "Non",
+                    "Oui"
+                ],
+                "obligatory": "yes",
+                "id": 7
+            }
+        ]
+    },
+    {
+        "Title": "Section 6 : revenu",
+        "Information": "",
+        "id": 6,
+        "showTitle": "no",
+        "link": "/questionnaire_section6",
+        "nextPage": "/questionnaire_section7",
+        "form": "list",
+        "questions": [
+            {
+                "Question": "Pourriez-vous nous indiquer le montant de votre revenu net mensuel (Réponse non-obligatoire) ?",
+                "Answer": ["Je ne veux pas répondre","[0-499]","[500-999]","[1000-1499]","[1500-1999]","[2000-2499]","[2500-2999]","[3000-3499]","[3500-3999]","[4000-4499]","[4500-4999]","[5000-5499]","Revenu supérieur à 5500 euros net"],
+                "obligatory": "no",
+                "id": 1
+            }
+        ]
+    },
+    {
+        "Title": "Section 7 : studies",
+        "Information": "",
+        "id": 7,
+        "showTitle": "no",
+        "link": "/questionnaire_section7",
+        "nextPage": "/questionnaire_section8",
+        "form": "list",
+        "questions": [
+            {
+                "Answer": [
+                    "Sciences humaines et sociales",
+                    "Sciences Economiques",
+                    "Commerce, finance, management",
+                    "Arts, Musique, Audiovisuel et Cinéma",
+                    "Batiments, travaux publics et Architecture",
+                    "Droit et justice",
+                    "Hotellerie, Restauration et Tourisme",
+                    "Information et communication",
+                    "Informatique",
+                    "Ingénierie",
+                    "Langues et lettres",
+                    "Médical et paramédical",
+                    "Mode, coiffure, esthétique",
+                    "Sciences naturelles",
+                    "Sport",
+                    "Transport et logistique",
+                    "Ressources humaines",
+                    "Patrimoine naturel et environnement",
+                    "Agriculture",
+                    "Technologie",
+                    "Education, enseignement, formation",
+                    "Maths, statistiques",
+                    "Retraité",
+                    "Autre"
+                ],
+                "obligatory": "yes",
+                "id": 1,
+                "Question": "Veuillez préciser votre domaine d'activité ou votre domaine d’études principale"
+            }
+        ]
+    },
+    {
+        "Title": "Section 8 : Level of studies",
+        "Information": "",
+        "id": 8,
+        "showTitle": "no",
+        "link": "/questionnaire_section8",
+        "nextPage": "/questionnaire_section9",
+        "form": "list",
+        "questions": [
+            {
+                "Question": "Quel est votre niveau d’études actuel (votre dernier diplôme si vous avez terminé vos études, sinon la dernière année terminée)",
+                "Answer": [
+                    "CAP/BEP",
+                    "BAC/BT/BP",
+                    "BAC + 1",
+                    "BAC +2",
+                    "BAC +3",
+                    "BAC + 4",
+                    "BAC + 5",
+                    "BAC + 6",
+                    "BAC + 7",
+                    "BAC + 8",
+                    "BAC + 9"
+                ],
+                "obligatory": "yes",
+                "id": 1
+            }
+        ]
+    },
+    {
+        "Title": "Section 9 : Political views",
+        "Information": "",
+        "id": 9,
+        "showTitle": "no",
+        "link": "/questionnaire_section9",
+        "nextPage": "/questionnaire_section10",
+        "form": "list",
+        "questions": [
+            {
+                "Question": "Quel parti représente le mieux vos opinions politiques (Réponse non-obligatoire) ?",
+                "Answer": [
+                    "France insoumise (FI)",
+                    "Parti communiste français (PCF)",
+                    "Parti socialiste (PS)",
+                    "Parti radical de gauche (PRG)",
+                    "Europe Écologie Les Verts (EELV)",
+                    "La République en marche ! (REM)",
+                    "Mouvement démocrate (MoDem)",
+                    "Les Républicains (LR)",
+                    "Union des démocrates et indépendants (UDI)",
+                    "Debout la France (DLF)",
+                    "Front national (FN)",
+                    "Autre",
+                    "Je ne veux pas répondre"
+                ],
+                "obligatory": "no",
+                "id": 1
+            }
+        ]
+    },
+    {
+        "Title": "Section 11 : manipulation check",
+        "Information": "",
+        "id": 11,
+        "showTitle": "no",
+        "link": "/questionnaire_section11",
+        "nextPage": "/questionnaire_section12",
+        "form": "list",
+        "questions": [
+            {
+                "Question": "Avez-vous lu les informations affichées sur la page d’accueil du magasin expérimental (la première page quand vous êtes entré dans le magasin) ?",
+                "Answer": [
+                    "Oui, je suis sûr de les avoir lues",
+                    "Je pense que oui mais je ne suis pas sûr",
+                    "Je ne sais pas",
+                    "Je pense que non mais je ne suis pas sûr",
+                    "Non, je suis sûr que je ne les ai pas lues"
+                ],
+                "obligatory": "yes",
+                "id": 1
+            }
+        ]
+    },
+    {
+        "Title": "Section 12 : device manipulation check",
+        "Information": "",
+        "id": 12,
+        "showTitle": "no",
+        "link": "/questionnaire_section12",
+        "nextPage": "/questionnaire_section13",
+        "form": "list",
+        "questions": [
+            {
+                "Question": "Quel type d’appareil avez-vous utilisé pour mener l'expérience:",
+                "Answer": [
+                    "Smartphone",
+                    "Ordinateur",
+                    "Tablette",
+                    "Autre"
+                ],
+                "obligatory": "yes",
+                "id": 1
+            }
+        ]
+    },
+    {
+        "Title": "Section 13 : demographic information",
+        "id": 13,
+        "showTitle": "no",
+        "link": "/questionnaire_section13",
+        "nextPage": "/dicegame",
+        "form": "list",
+        "questions": [
+            {
+                "Question": "Quel est votre âge?",
+                "obligatory": "yes",
+                "id": 1
+            },
+            {
+                "Question": "Quel est votre sexe?",
+                "Answer": ["femme","homme"],
+                "obligatory": "yes",
+                "id": 2
+            },
+            {
+                "Question": "Quel est votre degré de maîtrise du français?",
+                "Answer": [
+                    "C'est ma langue maternelle",
+                    "Je le parle aussi bien que ma langue maternelle",
+                    "Je le parle couramment mais pas aussi bien que ma langue maternelle",
+                    "Je le parle nettement moins bien que ma langue maternelle"
+                ],
+                "obligatory": "yes",
+                "id": 3
+            }
+        ]
+    }
+]

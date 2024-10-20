@@ -1,0 +1,36 @@
+[
+    {
+       "column0": 1,
+       "column1": "Fruits et Légumes"
+    },
+    {
+       "column0": 2,
+       "column1": "Viandes et Poissons"
+    },
+    {
+       "column0": 3,
+       "column1": "Produits Laitiers et Oeufs"
+    },
+    {
+       "column0": 4,
+       "column1": "Charcuterie et traiteur"
+    },
+    {
+       "column0": 5,
+       "column1": "Epicerie Salée"
+    },
+    {
+       "column0": 6,
+       "column1": "Epicerie Sucrée"
+    },
+    {
+       "column0": 7,
+       "column1": "Surgelés"
+    },
+    {
+       "column0": 8,
+       "column1": "Boissons"
+    }
+ ]
+ 
+ 
